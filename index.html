@@ -11,7 +11,7 @@ layout: page
       <ul>
     {%- endif %}
         <li>
-          <span class="date">{{ post.date | date: "%d/%m/%Y" }}</span>
+          <span class="date">{{ post.date | date: "%d-%m-%Y" }}</span>
           <div class="title">
             <a href="{{ site.baseurl | append: post.url }}" class="hover-underline">{{ post.title }}</a>
           </div>
