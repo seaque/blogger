@@ -31,7 +31,7 @@ Bu yazıda Android uygulamaların üzerinde ters mühendislik yaparak modlamanı
 
 Emülatörü kurup açtıktan sonra indirmiş olduğunuz **crackme0.apk** dosyasını sürükleyerek ya da `adb install crackme0.apk` komutuyla yükleyin ve uygulamayı açın. Bir giriş formu ve bir buton bulunan basit bir uygulamayla karşılacaksınız. Herhangi bir değeri girin, **"Invalid serial!"** bilgilendirmesi çıkacaktır. 
 
-![Android-Modding-Screenshot](/s/2ze9495c2di38l9/Screenshot_1677066964.png){: .post-image}
+![Android-Modding-Screenshot](https://dl.dropbox.com/s/2ze9495c2di38l9/Screenshot_1677066964.png){: .post-image}
 
 Buna benzer bilgilendirmeler başlangıç noktası belirlemek için önemli, çoğu uygulama herhangi bir türde geçerliliği bu mesajın oluşturulduğu yere yakın yapar.
 
@@ -130,8 +130,8 @@ const/4 v1, 0x0
 
 Yapacağımız değişiklikleri bitirdikten sonra dosyayı tekrar paketleyebiliriz. APKEasyTool üzerinden klasörü seçerek ya da üzerine sürükleyerek ekleyin. Başka bir ayarı değiştirmeden Compile seçeneğine basın. 
 
-![Android-Modding-Screenshot](/s/7prw488qfrmv9tj/sign.jpg)
+![Android-Modding-Screenshot](https://dl.dropbox.com/s/7prw488qfrmv9tj/sign.jpg)
 
 **🛈 Sign Successful** yazısını gördükten sonra programı kapatabilirsiniz. Emülatörü açın ve önceden yüklenmiş crackme0 uygulaması duruyorsa silin, sonra da recompile etmiş olduğunuz uygulamayı yükleyerek deneme yapın.
 
-![Android-Modding-Screenshot](/s/p3bbvpaair9hwl3/Screenshot_1678188628.jpg){: .post-image}
+![Android-Modding-Screenshot](https://dl.dropbox.com/s/p3bbvpaair9hwl3/Screenshot_1678188628.jpg){: .post-image}
