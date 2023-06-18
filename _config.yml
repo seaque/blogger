@@ -3,7 +3,7 @@ encoding: utf-8
 # SEO相关信息
 title: seaque Blog
 description: Kişisel ve Bilimsel blog.
-keywords: seaque,Blog,Android,Windows araçları
+keywords: seaque,Blog
 author: Emirhan Hasanoğlu
 footerText: 'Copyright © 2023 Bazı hakları saklıdır.'
 
@@ -27,13 +27,13 @@ tucaoUrl:
 # 必填字段 title: '文本' url: '链接'
 # 可选字段 target: '_blank' 新页面打开 
 menu:
-  - title: 首页
+  - title: Ana Sayfa
     url: /
-  - title: 归类
+  - title: Kategoriler
     url: /pages/categories.html
-  - title: 搜索
+  - title: Arama
     url: /pages/search.html
-  - title: 关于
+  - title: Hakkında
     url: /pages/about.html
 
 # 点击页面文字冒出特效,不需要请设置为false
