@@ -1,7 +1,6 @@
 .page-post {
   font-size: 14px;
   line-height: 2;
-  word-break: break-all;
 }
 .page-post .title {
   font-size: 18px;
@@ -151,6 +150,16 @@
 .page-post .table-container table tbody tr:last-child {
   border-bottom: 0;
 }
+.post-image {
+  width: 50%;
+  display: block;
+  margin-top: 1rem;
+}
+
+.post-image:hover {
+  transition: .3s ease;
+  filter: drop-shadow(.2rem .1rem .5rem rgb(107, 107, 107))
+}
 @media screen and (max-width: 560px) {
   .page-post {
     font-size: 13px;
@@ -160,5 +169,8 @@
   }
   .page-post .post > * {
     margin: 15px 0;
+  }
+  .post-image {
+    width: 80%;
   }
 }
