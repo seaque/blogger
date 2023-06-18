@@ -153,9 +153,8 @@
 .post-image {
   width: 50%;
   display: block;
-  margin-top: 1rem;
+  margin-top: 1rem !important;
 }
-
 .post-image:hover {
   transition: .3s ease;
   filter: drop-shadow(.2rem .1rem .5rem rgb(107, 107, 107))
