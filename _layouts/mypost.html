@@ -7,7 +7,11 @@
   <h1 class="title" id="{{ page.title }}">{{ page.title }}</h1>
   {% if page.date %}
   <div class="subtitle">
-    <span>{{site.author}} <span>&#183;</span> {{ page.date | date: "%d-%m-%Y" }}</span>
+    
+    <span>
+      <i class="fa fa-pen"></i>{{site.author}} 
+      <i class="fa fa-calendar"></i> {{ page.date | date: "%d-%m-%Y" }}
+    </span>
     {%- if site.extCount %}
       <span>Görüntüleme</span>
       <span id="busuanzi_value_page_pv"></span>

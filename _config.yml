@@ -27,8 +27,6 @@ tucaoUrl:
 # 必填字段 title: '文本' url: '链接'
 # 可选字段 target: '_blank' 新页面打开 
 menu:
-  - title: Ana Sayfa
-    url: /
   - title: Kategoriler
     url: /pages/categories.html
   - title: Arama
